@@ -58,6 +58,11 @@ p, li {
     font-weight: bolder;
 }
 
+li{
+    text-shadow: 1px 1px 1px white;
+    list-style-type: disc;
+}
+
 body {
     width: 600px;
     margin: 0 auto;
