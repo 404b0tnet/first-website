@@ -1,0 +1,73 @@
+/*
+The whole structure is called a ruleset.
+    (The term ruleset is often referred to as just rule.)
+    Note the names of the individual parts:
+
+Selector
+    This is the HTML element name at the start of the ruleset.
+    It defines the element(s) to be styled (in this example, <p> elements).
+    To style a different element, change the selector.
+Declaration
+    This is a single rule like color: red;.
+    It specifies which of the element's properties you want to style.
+Properties
+    These are ways in which you can style an HTML element. (In this example, color is a property of the <p> elements.)
+    In CSS, you choose which properties you want to affect in the rule.
+Property value
+    To the right of the property—after the colon—there is the property value.
+    This chooses one out of many possible appearances for a given property.
+    (For example, there are many color values in addition to red.)
+    
+padding
+    the space around the content. In the example below, it is the space around the paragraph text.
+border
+    the solid line that is just outside the padding.
+margin
+    the space around the outside of the border.
+width
+    (of an element).
+background-color
+    the color behind an element's content and padding.
+color
+    the color of an element's content (usually text).
+text-shadow
+    sets a drop shadow on the text inside an element.
+display
+    sets the display mode of an element. (keep reading to learn more)
+*/
+
+html {
+    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: 'Mate SC', serif; /* this should be the rest of the output you got from Google fonts */
+    background-color: #00539F;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 450px;
+}
